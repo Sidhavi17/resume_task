@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main{
+  max-width: 1000px;
+  margin: 20px auto;
+}
+.container-1 {
+  height: auto;
+  display: grid;
+  row-gap: 10px;
+  column-gap: 5px;
+  margin-bottom: 10px;
+}
+.container-2{
+  background-color: #cdd7e1;
+}
+.main-section {
+  padding: 30px 0px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: #211247;
+  text-align: center;
+}
+h1 {
+  font-size: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.main-section p {
+  color: #ffffff;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.personal-details{
+  padding:20px 20px;
+  background-color: #cdd7e1;
+}
+.white-para{color:white;}
+.blue-para{color:#211247;}
+
+.educational-details {
+  padding: 20px 20px;
+  background-color: #a7aeb6;
+}
+h2 {
+  color: #211247;
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+h3{
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+h4{
+  color:#211247;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+p {
+  font-size: 16px;
+}
+.education-item{
+  margin-bottom: 30px;
+}
+
+.internships {
+  padding:20px 20px 0px 20px;
+
+}
+.project{
+  padding:20px 20px 0px 20px;
+  
+}
+.achievements{
+  padding:20px 20px 20px 20px;
+}
+
+.skills {
+  padding: 20px 20px;
+  background-color: #a7aeb6;
+}
+.para-margin{
+  margin-bottom: 10px;
+}
+
+.icon {
+  font-size: 20px;
+  margin-right: 10px;
+  color:#211247;
+} 
+.align-right{
+  display:inline;
+  vertical-align: top;
+}
+
+.summary {
+   padding: 20px 20px;
+  background-color: #cdd7e1;
+}
+.certifications {
+  padding:20px 20px 0px 20px;
+}
+
+@media screen and (max-width:768px){
+  .personal-details,.educational-details,.skills,.summary{
+    grid-column: 1/3;
+  }
+  .container-1{
+    row-gap:0px;
+    column-gap:0px;
+    margin-bottom: 0px;
+  }
+  .educational-details,.skills{
+    background-color: #cdd7e1;
+  }
+  .white-para,h3{
+    color:#211247;
+  }
+}
+@media screen and (max-width:576px){
+  h1{
+    font-size: 30px;
+  }
+  h2{
+    font-size: 18px;
+  }
+  h3{
+    font-size: 16px;
+  }
+  h4{
+    font-size: 14px;
+  }
+  
+}
